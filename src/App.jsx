@@ -1,14 +1,12 @@
-import React from 'react';
-import './App.css';
+import Home from './components/Home/index.jsx';
+import Navigation from './components/Navbar/index.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Ryan Mueller</h1>
-        <p>Full Stack Web Developer</p>
-      </header>
-    </div>
+    <>
+    <Navigation />
+    <Home />
+    </>
   );
 }
 
